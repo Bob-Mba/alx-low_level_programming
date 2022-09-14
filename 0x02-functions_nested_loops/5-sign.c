@@ -1,15 +1,49 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if the letter is lower case
- * @c : character to check
+ * print_sign - entry point
+ * @n : number to check
  * Return:0 or 1
  */
 
-int _isalpha(int c)
+int print_sign(int n)
 
 {
 
-	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
+	int numz;
+
+
+
+	if (n > 0)
+
+	{
+
+		numz = 1;
+
+		_putchar('+');
+
+	}
+
+	else if (n == 0)
+
+	{
+
+		numz = 0;
+
+		_putchar('0');
+
+	}
+
+	else
+
+	{
+
+		numz = -1;
+
+		_putchar('-');
+
+	}
+
+	return (numz);
 
 }
