@@ -1,1 +1,1 @@
-There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+a function that prints the last digit of a number
