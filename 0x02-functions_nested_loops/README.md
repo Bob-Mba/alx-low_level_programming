@@ -1,1 +1,1 @@
-10 x alphabet
+is lower
