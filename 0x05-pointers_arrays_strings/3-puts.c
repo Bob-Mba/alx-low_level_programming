@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * _puts - check the code.
- * @str: validate the character
- * Return: Always 0.
+ * _puts - Prints a string.
+ * @str: string.
+ *
+ * Return: void
  */
-
 void _puts(char *str)
 {
-	int i;
+	while (*str)
+		_putchar(*str++);
 
-	for (i = 0; str[i] != '\0' ; i++)
-	{
-		_putchar(str[i]);
-	}
 	_putchar('\n');
 }
