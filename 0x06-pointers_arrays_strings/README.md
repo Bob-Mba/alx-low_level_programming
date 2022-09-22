@@ -1,1 +1,1 @@
-task 10
+a function that adds two numbers.
